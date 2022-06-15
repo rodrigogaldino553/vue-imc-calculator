@@ -1,7 +1,7 @@
 <template>
   <div class="imc-inputs">
     <h1>Are you health?</h1>
-    <input type="number" v-model="user_height" class="height" placeholder="cm">
+    <input type="number" v-on:input="calculate" v-model="user_height" class="height" placeholder="cm">
     <input type="number" v-on:input="calculate" v-model="user_weight" class="weight" placeholder="kg">
     <!-- button v-on:click="calculate">See IMC</button-->
     <h2>{{user_imc}}</h2>
@@ -21,7 +21,11 @@
     }, 
     methods: {
       calculate(){
-        this.user_imc = 'Your IMC is '+(this.user_weight / (Math.pow(this.user_height, 2))).toString().substring(4, 6)
+        if(this.user_height !== "" && this.user_weight !== ""){
+          this.user_imc = 'Your IMC is '+(this.user_weight / (Math.pow(this.user_height, 2))).toString().substring(4, 6)
+        }else{
+          this.user_imc = ""
+        }
       },
 
       category(){
