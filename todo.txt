@@ -1,8 +1,8 @@
-- criar componente de calculo
+[OK] criar componente de calculo
 
-- faze-lo funcional
+[OK] faze-lo funcional
 
-- interface simples e clean como a do coin conversor
+[OK] interface simples e clean como a do coin conversor
 
 - coloca uma barrinha grafico tipo aquela que tinha no treino em casa
 
