@@ -1,0 +1,7 @@
+- criar componente de calculo
+
+- faze-lo funcional
+
+- interface simples e clean como a do coin conversor
+
+- uppar no gh pages
