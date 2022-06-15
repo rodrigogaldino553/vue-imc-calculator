@@ -4,4 +4,8 @@
 
 - interface simples e clean como a do coin conversor
 
+- coloca uma barrinha grafico tipo aquela que tinha no treino em casa
+
+      __ __ |btn|
+
 - uppar no gh pages

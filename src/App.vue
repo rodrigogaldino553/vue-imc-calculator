@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ImcCalc/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ImcCalc from './components/ImcCalc.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ImcCalc
   }
 }
 </script>
